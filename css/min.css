@@ -1,0 +1,13 @@
+.kanit{
+    font-family: 'Kanit', sans-serif;
+}
+
+body{
+    background-image: url(../image/me\ \(2\).JPG);
+    background-size: cover;
+}
+
+
+nav{
+    backdrop-filter: blur(10px);
+}
