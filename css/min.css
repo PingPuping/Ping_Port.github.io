@@ -4,11 +4,6 @@
 
 
 
-.index-bg{
-    background-image: url(../image/me\ \(2\).JPG);
-    background-size: cover;
-}
-
 nav{
     backdrop-filter: blur(10px);
 }
@@ -58,3 +53,7 @@ nav{
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
   .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+  /* Time line */
+  

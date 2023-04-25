@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;0,400;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/css/min.css">
+</head>
+<body>
+    <nav class="sticky top-0">
+        <div class="container mx-auto px-6 flex justify-between items-center p-3 sticky">
+            <div class="text-lg md:text-4xl uppercase tracking-wide text-gray-900 ">
+                <h1><a href="/index.html">Puping Portfolio</a></h1>
+            </div>
+            <button data-collapse-toggle="navbar-default" type="button"
+                class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
+                aria-controls="navbar-default" aria-expanded="false">
+
+                <span class="sr-only">Open main menu</span>
+
+                <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                        clip-rule="evenodd"></path>
+                </svg>
+            </button>
+            <div class="md:flex text-xl" id="navbar-default">
+                <div class="me-6 p-3 relative">
+                    <a href="/index.html"
+                        class="border-b-2 border-transparent hover:border-indigo-500 hover:text-indigo-500 transition ease-in-out duration-300">Home</a>
+                </div>
+                <div class="me-6 p-3 relative">
+                    <a href="aboutme.html"
+                        class="border-b-2 border-transparent hover:border-indigo-500 hover:text-indigo-500 transition ease-in-out duration-300">AboutMe</a>
+                </div>
+                <div class="me-6 p-3 relative">
+                    <a href="education.html"
+                        class="border-b-2 border-transparent hover:border-indigo-500 hover:text-indigo-500 transition ease-in-out duration-300">MyEducation</a>
+                </div>
+                <div class="me-6 p-3 relative">
+                    <a href="performance.html"
+                        class="border-b-2 border-transparent hover:border-indigo-500 hover:text-indigo-500 transition ease-in-out duration-300">MySkill</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main class="container mx-auto pt-6 px-5">
+        <section>
+            <div class="p-3 grid md:grid-cols-2 sm:grid-cols-1 items-end">
+                <div>
+                    <h1 class="text-4xl uppercase">Coding</h1>                    
+                </div>
+                <div class="flex justify-end">
+                    <a href="performance.html" class="flex">
+                        <p class="pe-2">Back</p> 
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 448 512" class="w-6"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                            <path
+                                d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
+                        </svg>
+                    </a>
+                </div>   
+            </div>
+            <hr class="pb-4 pt-2">
+            <!-- content -->
+            <div class="grid md:grid-cols-2 sm:grid-cols-1 items-center">
+                <!-- nsc -->
+                <div class="p-4">
+                   <div class="flex justify-center items-center">
+                        <div>
+                            <img src="../image/nsc_main.png" alt="">
+                        </div>
+                   </div>
+                </div>
+                <div class="p-3">
+                    <h1 class="text-4xl">NSC2023</h1>
+                    <p>ทำหน้าที่เขียนหน้าเว็บในระบบ ED-Oasis ระบบสำหรับการแชร์แผนการสอน และให้ผู้เรียนได้ร่วมประเมินแผนการสอนที่ครูได้เผยแพร่ในระบบ</p>
+                    <div class="pt-3">
+                        <h3 class="text-xl"> <b>tool</b> </h3>
+                        <ul class="list-disc pl-3">
+                            <li>HTML</li>
+                            <li>tailwindcss</li>
+                            <li>flowbite</li>
+                            <li>php</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+               
+        </section>
+    </main>
+</body>
+</html>
